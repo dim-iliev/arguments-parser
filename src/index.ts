@@ -1,10 +1,4 @@
-import symbolize from "./symbolize";
-import tokenize from "./tokenize";
-import toWords from "./words";
+import parse from "./parse";
+import { breakShortTags, isShortTag, breakIntoTags } from "./shortTags";
 
-export default function parse(args: string) {
-  const symbols = symbolize(args);
-  const tokens = tokenize(symbols);
-
-  return toWords(tokens);
-}
+export { parse, breakShortTags, isShortTag, breakIntoTags };
