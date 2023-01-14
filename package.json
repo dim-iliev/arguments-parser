@@ -1,6 +1,6 @@
 {
   "name": "@dim.iliev/arguments-parser",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Small library to help with parsing cli args from string.",
   "main": "./dist/index.js",
   "type": "module",
@@ -13,15 +13,24 @@
   "license": "GPL-3.0-or-later",
   "repository": {
     "type": "git",
-    "url": "https+git://github.com/dim-iliev/arguments-parser.git"
+    "url": "git+https://github.com/dim-iliev/arguments-parser.git"
   },
+  "keywords": [
+    "cli parser",
+    "arguments",
+    "args",
+    "parse",
+    "short tags"
+  ],
   "devDependencies": {
     "@types/jest": "^29.2.5",
     "jest": "^29.3.1",
     "ts-jest": "^29.0.5",
-    "typescript": "^4.9.4"
-  },
-  "dependencies": {
+    "typescript": "^4.9.4",
     "ts-node": "^10.9.1"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/dim-iliev/arguments-parser/issues"
+  },
+  "homepage": "https://github.com/dim-iliev/arguments-parser#readme"
 }
